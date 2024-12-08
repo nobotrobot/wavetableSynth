@@ -1,3 +1,32 @@
+/*
+2 * Wavetable Synthesizer 
+3 * 
+4 * Copyright (c) Guy Bartell 2024
+5 *
+6 * This code is licensed under the Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0).
+7 * 
+8 * You are free to:
+9 * - Share: Copy and redistribute the material in any medium or format.
+10 * - Adapt: Remix, transform, and build upon the material.
+11 * 
+12 * Under the following terms:
+13 * - Attribution: You must give appropriate credit, provide a link to the license, 
+14 *   and indicate if changes were made. You may do so in any reasonable manner, 
+15 *   but not in any way that suggests the licensor endorses you or your use.
+16 * - NonCommercial: You may not use the material for commercial purposes.
+17 * 
+18 * No additional restrictions: You may not apply legal terms or technological 
+19 * measures that legally restrict others from doing anything the license permits.
+20 * 
+21 * Full license text can be found at:
+22 * https://creativecommons.org/licenses/by-nc/4.0/
+23 *
+24 * Third-party libraries and components included in this software are licensed 
+25 * under their respective licenses, as listed in the THIRD_PARTY_LICENSES file.
+26 *
+27 * For commercial use or licensing inquiries, please contact guybartell.ext@gmail.com.
+28 */
+
 // DAC & MIDI (M7 core)
 
 #include <Arduino_AdvancedAnalog.h>    // DAC
